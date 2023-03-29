@@ -14,16 +14,17 @@
   z-index: 10;
 }
 
-.mainimage {
+.main_image {
   position: fixed;
-  width: 117%;
-  height: 25rem;
+  width: 120%;
+  height: 40rem;
+  margin: -34% -48px;
   z-index: 0;
   overflow: hidden;
   transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
 
-.mainimage .gradient {
+.main_image .gradient {
   position: absolute;
   top: 0;
   left: 0;
