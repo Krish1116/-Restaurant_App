@@ -1,0 +1,14 @@
+.form {
+  text-align: right;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background: #6f4c5b;
+  border: 1px solid black;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
