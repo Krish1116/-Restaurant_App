@@ -6,12 +6,13 @@ const Header = (props) => {
   return (
     <Fragment>
       <header className={classes.header}>
-        <h1>ReactMeal</h1>
+        <div className={classes.logo}></div>
+        <h1>CHEF FOOD</h1>
         <HeaderCartButton onClick={props.onShowCart} />
       </header>
-      <div className={classes.main_image}>
+      {/* <div className={classes.main_image}>
         <div className={classes.gradient}></div>
-      </div>
+      </div> */}
     </Fragment>
   )
 }

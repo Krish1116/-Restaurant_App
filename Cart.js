@@ -20,6 +20,7 @@ const Cart = (props) => {
       </div>
       <div className={classes.actions}>
         <button className={classes["button--alt"]} onClick={props.onCloseCart}>
+          {/* we can onClick={props.onCloseCart} also use in modal component */}
           Close
         </button>
         <button className={classes.button}>Order</button>

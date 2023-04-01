@@ -1,0 +1,55 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  /* background-color: #8a2b06; */
+  background: linear-gradient(to left, #e06900, #982f0c);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  border-bottom: 2px solid black;
+}
+
+.header h1 {
+  color: #ffa445;
+  margin: 30px;
+  font-weight: bold;
+}
+
+.logo {
+  position: inherit;
+  left: 3%;
+  width: 120px;
+  height: 80px;
+  background-image: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/restaurant-logo-design-template-c2119aff1d9a65251729cbc3510375e7_screen.jpg?ts=1629395591");
+  background-size: cover;
+  background-position: center;
+  margin: -40px;
+}
+
+/* .main_image {
+  position: fixed;
+  width: 120%;
+  height: 45rem;
+  margin: -34% -48px;
+  z-index: 0;
+  overflow: hidden;
+  transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); 
+}
+
+.main_image .gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background: linear-gradient(215deg, #c8b6a6 0%, #9c6e81 100%); 
+  background-image: url("https://img.freepik.com/free-photo/frying-pan-empty-with-various-spices-black-table_1220-561.jpg?size=626&ext=jpg&ga=GA1.1.822745182.1680324918&semt=ais"); 
+} */
